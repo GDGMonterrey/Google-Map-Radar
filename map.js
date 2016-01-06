@@ -4,7 +4,7 @@ var circle;
 var animation;
 
 function initMap () {
-	var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+	var myLatlng = new google.maps.LatLng(25.657797, -100.366795);
 	map = new google.maps.Map(document.getElementById('map'), {
 	  center: myLatlng,
 	  zoom: 12
@@ -17,7 +17,6 @@ function initMap () {
 function createMarker(latLng){
 	marker = new google.maps.Marker({
 	  position: latLng,
-	  title:"Hello World!",
 	  map: map
 	});
 }
